@@ -1,12 +1,10 @@
 import subprocess
- 
-cmd = "HelloWorld.c"
-# Example
-# cmd = HelloWorld.c
-print ("Hey this is Python Script Running\n")
-subprocess.run(["gcc",cmd]) #For Compiling
-subprocess.run("./a.out") 
-result = run(command, stdout=PIPE, stderr=PIPE, universal_newlines=True)
-print(result.returncode, result.stdout, result.stderr)
+import os
 
-#end thats all
+
+for file in os.listdir():
+    if file.endswith(".c"):
+        cmd = os.path.join(file)
+        resultFile = cmd[:-1] + "txt"
+        subprocess.run(["gcc",cmd]) #For Compiling
+        os.system("./a.out > " + resultFile)
