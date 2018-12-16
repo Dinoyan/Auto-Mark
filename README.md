@@ -7,6 +7,10 @@ Python script to complie and run C programs and output it to a .txt file. Then c
 - Python 3.x
 - C Compiler GCC
 
+### Installing
+
+Download this repo to get started.
+
 ### Demo
 
 Files in the cwd:
