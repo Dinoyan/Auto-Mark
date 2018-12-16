@@ -10,10 +10,10 @@ Python script to complie and run C programs and output it to a .txt file. Then c
 ### Demo
 
 Files in the cwd:
-  -HelloWorld.c -> Correct output
-  -auto_mark.py 
-  -Hello_World.c	-> Wrong output
-  -solution.txt -> Contains the correct output to comapre
+  - HelloWorld.c -> Correct output
+  - auto_mark.py 
+  - Hello_World.c	-> Wrong output
+  - solution.txt -> Contains the correct output to comapre
 
 ```
 $ Python3 auto_mark.py 
