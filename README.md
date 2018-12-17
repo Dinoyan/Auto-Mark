@@ -14,9 +14,9 @@ Download this repo to get started.
 ### Demo
 
 Files in the cwd:
-  - HelloWorld.c -> Correct output
+  - student_1.c -> Correct output
   - auto_mark.py 
-  - Hello_World.c	-> Wrong output
+  - student_2.c	-> Wrong output
   - solution.txt -> Contains the correct output to comapre
 
 ```
