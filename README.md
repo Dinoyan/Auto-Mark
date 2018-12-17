@@ -26,7 +26,7 @@ $ Python3 auto_mark.py
 Output:
 
 ```
-Hello_World.txt solution.txt differ: char 11, line 1
-Mark: 0.0%
-Mark: 100%
+student_1 Mark: 100%
+student_2.txt solution.txt differ: char 11, line 1
+student_2 Mark: 0.0%
 ```
