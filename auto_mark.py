@@ -12,8 +12,8 @@ for file in os.listdir():
         os.remove(resultFile)
         mark = mark.returncode
         if (mark == 0):
-        	print(resultFile + " Mark: 100%")
+        	print(cmd[:-2] + " Mark: 100%")
         else:
-        	print(resultFile + " Mark: 0.0%")
+        	print(cmd[:-2] + " Mark: 0.0%")
 
         
