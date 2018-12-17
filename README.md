@@ -1,6 +1,6 @@
 # Auto Marker
 
-Python script to complie and run C programs and output it to a .txt file. Then compare the output txt file with the solution txt file.
+Python script to complie and run C programs and output it to a .txt file. Then compare the output txt file with the solution txt file. This script could be used in programming classes to automatically mark bunch of C exercises at once!
 
 ### Prerequisites
 
